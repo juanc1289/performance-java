@@ -3,8 +3,15 @@ import java.time.Instant;
 
 /*
 Resultado:
+
+PC: Intel Core i5-7200U 2.50GHz
 Cantidad de números primos hasta 1000000: 78498
 Tiempo de ejecución: 0.282 segundos
+
+Raspberry Pi 4: ARM Cortex-A72 1.5GHz
+Cantidad de números primos hasta 1000000: 78498
+Tiempo de ejecución: 0.337 segundos
+
  */
 
 public class NumerosPrimos {
