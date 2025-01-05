@@ -2,7 +2,7 @@ import java.time.Duration;
 import java.time.Instant;
 
 /*
-Resultado:
+Resultados hasta 1M:
 
 PC: Intel Core i5-7200U 2.50GHz
 Cantidad de números primos hasta 1000000: 78498
@@ -11,6 +11,16 @@ Tiempo de ejecución: 0.282 segundos
 Raspberry Pi 4: ARM Cortex-A72 1.5GHz
 Cantidad de números primos hasta 1000000: 78498
 Tiempo de ejecución: 0.337 segundos
+
+Resultados hasta 10M:
+
+PC: Intel Core i5-7200U 2.50GHz
+Cantidad de números primos hasta 10000000: 664579
+Tiempo de ejecución: 7.306 segundos
+
+Raspberry Pi 4: ARM Cortex-A72 1.5GHz
+ Cantidad de números primos hasta 10000000: 664579
+Tiempo de ejecución: 9.376 segundos
 
  */
 
@@ -25,7 +35,7 @@ public class NumerosPrimos {
     }
 
     public static void main(String[] args) {
-        final int limite = 1000000;
+        final int limite = 10000000;
         int contadorPrimos = 0;
 
         // Inicia la medición de tiempo
