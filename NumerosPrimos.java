@@ -25,7 +25,9 @@ Tiempo de ejecución: 9.376 segundos
 Macbook pro M3
 1.4 seg
 
-
+Intel(R) Xeon(R) Gold 6430 2.0GHz
+Cantidad de nÃºmeros primos hasta 10000000: 664579
+Tiempo de ejecuciÃ³n: 3.524 segundos
 
  */
 
