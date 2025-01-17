@@ -22,6 +22,11 @@ Raspberry Pi 4: ARM Cortex-A72 1.5GHz
  Cantidad de números primos hasta 10000000: 664579
 Tiempo de ejecución: 9.376 segundos
 
+Macbook pro M3
+1.4 seg
+
+
+
  */
 
 public class NumerosPrimos {
